@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
 }
-img {
+
+.sweets img {
     width: 20%;
 }
 p{
@@ -20,9 +21,7 @@ p{
     margin-left: 2%;
     text-align: center;
 }
-.flex {
-    width: 100%;
-}
+
 .TEST4 {
     display: flex;
     justify-content: flex-end;
@@ -31,4 +30,7 @@ p{
     display: flex;
     justify-content: space-around;
     margin-left: 0;
+}
+img {
+    width: 100%;
 }
