@@ -29,8 +29,32 @@ p{
 .TEST5 {
     display: flex;
     justify-content: space-around;
-    margin-left: 0;
+    
+}
+.test-around {
+    margin: 0;
+    width: 25%;
+    
 }
 img {
     width: 100%;
+}
+@media screen and (max-width:480px){
+    .sweets img {
+        width: 80%;    
+    }
+    p {
+        font-size: 14px;
+    }
+    .TEST5 {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .test-around {
+        margin: 0;
+        width: 25%;
+        
+    }
+    
 }
